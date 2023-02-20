@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "westagram";
+    src: url("ttf/Lobster-Regular.ttf") format('truetype');
+}
+
+.westagram {
+    font-family: "westagram";
+    color:rgb(38,38,38);
+}
+
+body {
+    background-color: #fafafa;
+}

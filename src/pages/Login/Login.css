@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "westagram";
+    src: url("../../../public/ttf/Lobster-Regular.ttf") format('truetype');
+}
+
+.westagram {
+    font-family: "westagram";
+    color:rgb(38,38,38);
+}
+
+body {
+    background-color: #fafafa;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login_box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    background-color:#fafafa;
+}
+
+button {
+    height: 30px;
+    width:258px;
+    margin: 15px 0px 50px 0px;
+    border: none rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: rgb(76,181,249);
+    color:#fafafa;
+}
+
+.forgot_pw {
+    color: rgb(0, 0, 143);
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}

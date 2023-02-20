@@ -5,7 +5,5 @@ import Main from './pages/Main/Main';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <Main />
-);
-
+root.render(<Main />);
+root.render(<Login />);

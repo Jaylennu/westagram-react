@@ -45,6 +45,10 @@ button {
     border-radius: 5px;
     background-color: rgb(76,181,249);
     color:#fafafa;
+    
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .forgot_pw {

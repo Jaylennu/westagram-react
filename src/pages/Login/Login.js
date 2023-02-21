@@ -1,5 +1,5 @@
 import React from 'react';
-import './Login.css';
+import './Login.scss';
 import { useNavigate } from 'react-router-dom';
 
 
@@ -9,8 +9,6 @@ const Login = () => {
     const goToMain = () => {
         navigate('/main');
     };
-
-
 
     return (
         <main className="login_box">

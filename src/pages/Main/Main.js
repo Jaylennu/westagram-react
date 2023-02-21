@@ -1,5 +1,12 @@
 import React from 'react';
-import './Main.css'
+import './Main.scss';
+import instagram from '../../assets/main/instagram.png'
+import explore from '../../assets/main/explore.png'
+import heart from '../../assets/main/heart.png'
+import profile from '../../assets/main/profile.png'
+import person1 from '../../assets/main/person1.png'
+import wecodeArticle from '../../assets/main/wecode_article.png'
+import wecode from '../../assets/main/wecode.jpeg'
 
 const Main = () => {
     return (
@@ -7,7 +14,7 @@ const Main = () => {
         <div className="box">
         <div className="nav">
             <div className="nav_container">
-                <img className="nav_logo" src="./assets/main/instagram.png" />
+                <img className="nav_logo" src={instagram} />
                 <i className="fa-light fa-pipe" />
                 <p className="westagram">Westagram</p>
             </div>
@@ -16,9 +23,9 @@ const Main = () => {
                 <i className="fa-solid fa-magnifying-glass"></i>  
             </div>
             <div className="icons">
-                <img className="icons explore" src="./assets/main/explore.png" />
-                <img className="icons heart" src="./assets/main/heart.png" />
-                <img className="icons profile" src="./assets/main/profile.png" />
+                <img className="icons explore" src={explore} />
+                <img className="icons heart" src={heart} />
+                <img className="icons profile" src={profile} />
             </div>
         </div>
 
@@ -27,7 +34,7 @@ const Main = () => {
                 <article>
                     <div className="article-top">
                         <div className="insta_id">
-                            <img className="wecode_image" src={"./assets/main/wecode.jpeg"} />
+                            <img className="wecode_image" src={wecode} />
                             <div className="wecode_text">
                                 <h4>wecode_bootcamp</h4>
                             </div>
@@ -36,7 +43,7 @@ const Main = () => {
                     </div>
 
                     <div>
-                        <img className="wecode_article" src="./assets/main/wecode_article.png" />
+                        <img className="wecode_article" src={wecodeArticle} />
                     </div>
 
                     <div className="article_bottom">
@@ -53,7 +60,7 @@ const Main = () => {
                         <div>
                             <div className="good">
                                 <span>
-                                    <img className="person" src="./assets/main/person1.png" />
+                                    <img className="person" src={person1}/>
                                 </span>
                                 <span>
                                     wecode_zzang님 외 4명이 좋아합니다.
@@ -85,7 +92,7 @@ const Main = () => {
 
             <div className="main_right">
                 <div className="main_right_top">
-                    <img className="wecode_image" src="./assets/main/wecode.jpeg" />
+                    <img className="wecode_image" src={wecode} />
                     <div className="wecode_text">
                         <p className="name">wecode_bootcamp</p>
                         <p className="nickname">WeCode - 위코드</p>
@@ -99,7 +106,7 @@ const Main = () => {
                     <div className="story_person">
                         <div className="recommend_person">
                             <span>
-                                <img className="person" src="./assets/main/person1.png" />
+                                <img className="person" src={person1} />
                             </span>
                             <div>
                                 <div className="preson_id">
@@ -112,7 +119,7 @@ const Main = () => {
                         </div>
                         <div className="recommend_person">
                             <span>
-                                <img className="person" src="./assets/main/person1.png" />
+                                <img className="person" src={person1} />
                             </span>
                             <div>
                                 <div className="preson_id">
@@ -125,7 +132,7 @@ const Main = () => {
                         </div>
                         <div className="recommend_person">
                             <span>
-                                <img className="person" src="./assets/main/person1.png" />
+                                <img className="person" src={person1} />
                             </span>
                             <div>
                                 <div className="preson_id">
@@ -139,7 +146,7 @@ const Main = () => {
                         </div>
                         <div className="recommend_person">
                             <span>
-                                <img className="person" src="./assets/main/person1.png" />
+                                <img className="person" src={person1} />
                             </span>
                             <div>
                                 <div className="preson_id">
@@ -152,7 +159,7 @@ const Main = () => {
                         </div>
                         <div className="recommend_person">
                             <span>
-                                <img className="person" src="./assets/main/person1.png" />
+                                <img className="person" src={person1} />
                             </span>
                             <div>
                                 <div className="preson_id">
@@ -165,7 +172,7 @@ const Main = () => {
                         </div>
                         <div className="recommend_person">
                             <span>
-                                <img className="person" src="./assets/main/person1.png" />
+                                <img className="person" src={person1} />
                             </span>
                             <div>
                                 <div className="preson_id">
@@ -186,7 +193,7 @@ const Main = () => {
                     <div>
                         <div className="recommend_person">
                             <span>
-                                <img className="person" src="./assets/main/person1.png" />
+                                <img className="person" src={person1} />
                             </span>
                             <div className="follow_person">
                                 <div>
@@ -204,7 +211,7 @@ const Main = () => {
                         </div>
                         <div className="recommend_person">
                             <span>
-                                <img className="person" src="./assets/main/person1.png" />
+                                <img className="person" src={person1} />
                             </span>
                             <div className="follow_person">
                                 <div>
@@ -222,7 +229,7 @@ const Main = () => {
                         </div>
                         <div className="recommend_person">
                             <span>
-                                <img className="person" src="./assets/main/person1.png" />
+                                <img className="person" src={person1} />
                             </span>
                             <div className="follow_person">
                                 <div>
@@ -240,7 +247,7 @@ const Main = () => {
                         </div>
                         <div className="recommend_person">
                             <span>
-                                <img className="person" src="./assets/main/person1.png" />
+                                <img className="person" src={person1} />
                             </span>
                             <div className="follow_person">
                                 <div>

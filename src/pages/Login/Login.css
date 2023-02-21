@@ -3,7 +3,7 @@
     src: url("../../../public/ttf/Lobster-Regular.ttf") format('truetype');
 }
 
-.westagram {
+.westagram_login {
     font-family: "westagram";
     color:rgb(38,38,38);
 }

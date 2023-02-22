@@ -60,16 +60,13 @@ body {
         margin-left: 20px;
         
         .explore {
-            width: 30px;
-            height: 30px;
+            @include iconSize
         }
         .heart {
-            width: 30px;
-            height: 30px;
+            @include iconSize
         }
         .profile {
-            width: 30px;
-            height: 30px;
+            @include iconSize
         }
     }
 }
@@ -243,8 +240,7 @@ body {
                 margin: 0px 0px 5px 10px;
 
                 .person {
-                    width: 30px;
-                    height: 30px;
+                    @include iconSize;
                     border-radius: 100%;
                     margin-right: 10px;
                 }
@@ -277,8 +273,15 @@ body {
             .recommend_top {
                 display: flex;
                 justify-content: space-between;
-            }
+            
+                .story_h4 {
+                    margin-left: 10px;
+                }
 
+                .story_h5 {
+                    margin-right: 10px;
+                }
+            }
             .recommend_person {
                 display: flex;
                 margin: 0px 0px 5px 10px;
@@ -300,8 +303,7 @@ body {
                 }
 
                 .person {
-                    width: 30px;
-                    height: 30px;
+                    @include iconSize;
                     border-radius: 100%;
                     margin-right: 10px;
                 }

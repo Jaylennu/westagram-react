@@ -7,6 +7,8 @@ import profile from '../../assets/main/profile.png'
 import person1 from '../../assets/main/person1.png'
 import wecodeArticle from '../../assets/main/wecode_article.png'
 import wecode from '../../assets/main/wecode.jpeg'
+import { faEllipsis } from "@fortawesome/free-solid-svg-icons";
+import { faSquare } from "@fortawesome/free-regular-svg-icons";
 
 const Main = () => {
     return (
@@ -39,7 +41,7 @@ const Main = () => {
                                 <h4>wecode_bootcamp</h4>
                             </div>
                         </div>
-                        <i className="fa-solid fa-ellipsis"></i>
+                        <i className={faEllipsis}></i>
                     </div>
 
                     <div>

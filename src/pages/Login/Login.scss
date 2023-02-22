@@ -1,12 +1,7 @@
 @import '/src/styles/common.scss';
+@import '/src/styles/mixin.scss';
 
-//westagram font//
-
-@include flexCenter;
-height: 100vh;
-background-color: $primary-color;
-
-.login_box {
+.login {
   @include flexCenter;
   flex-direction: column;
   height: 350px;

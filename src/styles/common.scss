@@ -1,17 +1,10 @@
+@import '/src/styles/mixin.scss';
 @font-face {
-    font-family: "westagram";
-    src: url("../../public/ttf/Lobster-Regular.ttf") format('truetype');
+  font-family: 'westagram';
+  src: url('../../public/ttf/Lobster-Regular.ttf') format('truetype');
 }
 
-@mixin flexCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  @include flexCenter;
+  height: 100vh;
 }
-
-@mixin iconSize {
-    height: 30px;
-    width: 30px;
-}
-
-$primary-color: #fafafa;

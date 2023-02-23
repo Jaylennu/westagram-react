@@ -1,4 +1,7 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
 import './Main.scss';
 import instagram from '../../assets/main/instagram.png';
 import explore from '../../assets/main/explore.png';
@@ -7,8 +10,6 @@ import profile from '../../assets/main/profile.png';
 import person1 from '../../assets/main/person1.png';
 import wecodeArticle from '../../assets/main/wecode_article.png';
 import wecode from '../../assets/main/wecode.jpeg';
-import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
-import { faSquare } from '@fortawesome/free-regular-svg-icons';
 
 const Main = () => {
   return (
@@ -40,7 +41,7 @@ const Main = () => {
                   <h4>wecode_bootcamp</h4>
                 </div>
               </div>
-              <i className={faEllipsis}></i>
+              <FontAwesomeIcon icon={faEllipsis} />
             </div>
 
             <div>

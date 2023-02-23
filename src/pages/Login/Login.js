@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Login.scss';
 import { useNavigate } from 'react-router-dom';
 
@@ -9,10 +9,21 @@ const Login = () => {
     navigate('/main');
   };
 
+  const [id, setId] = useState('');
+  const [pw, setPw] = useState('');
+  const saveUserId = e => {
+    setId(e.target.value);
+  };
+  const saveUserPw = e => {
+    setPw(e.target.value);
+  };
+
   return (
     <main className="login">
       <h1 className="westagram_login">Westagram</h1>
       <input
+        onChange={saveUserId}
+        value={id}
         id="LoginId"
         className="login_id"
         type="name"
@@ -21,6 +32,8 @@ const Login = () => {
         required
       ></input>
       <input
+        onChange={saveUserPw}
+        value={pw}
         id="LoginPw"
         className="login_pw"
         type="password"

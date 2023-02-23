@@ -16,14 +16,16 @@ const Login = () => {
         id="LoginId"
         className="login_id"
         type="name"
-        placeholder=" 전화번호, 사용자이름 또는 이메일"
+        placeholder=" 전화번호,
+        사용자이름 또는 이메일"
         required
       ></input>
       <input
         id="LoginPw"
         className="login_pw"
         type="password"
-        placeholder=" 비밀번호"
+        placeholder="
+        비밀번호"
         required
       ></input>
       <button id="LoginBtn" className="login_btn" onClick={goToMain}>
